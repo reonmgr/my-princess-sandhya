@@ -18,7 +18,27 @@ animation:beat 1s infinite;
 
 #intro button {
 margin-top:20px;
-}tyle>
+.petal {
+  position: fixed;
+  top: -10px;
+  font-size: 25px;
+  animation: fall linear infinite;
+  z-index: 5;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(110vh) rotate(360deg);
+  }
+}
+
+.secret {
+  background: #ffe0ed;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 25px auto;
+  max-width: 500px;
+}}tyle>
 <body>
 
 <div id="intro">
@@ -26,7 +46,7 @@ margin-top:20px;
   <h1>For My Princess Sandhya 💖</h1>
   <button onclick="openLove()">Open My Heart 💌</button>
 </div>
-
+<div id="petals"></div>
 <div class="container" id="main" style="display:none;">
 
 <h1>For My Princess Sandhya 💖</h1>
@@ -64,7 +84,20 @@ Forever yours,<br>
 Roshan ❤️
 </p>
 </div>
+<div class="secret">
+<h2>💌 A Secret For You</h2>
+<button onclick="showSecret()">Tap Here ❤️</button>
+<p id="secretText" style="display:none;">
+Sandhya, even on ordinary days, you are my favorite thought.
+I hope you always remember how special you are to me. ❤️
+</p>
+</div>
 
+<script>
+function showSecret(){
+document.getElementById("secretText").style.display="block";
+}
+</script>
 </div>
 
 <script>
@@ -73,5 +106,15 @@ function openLove(){
  document.getElementById("main").style.display="block";
 }
 </script>
-
+<script>
+for(let i=0;i<25;i++){
+ let petal=document.createElement("div");
+ petal.className="petal";
+ petal.innerHTML="🌸";
+ petal.style.left=Math.random()*100+"vw";
+ petal.style.animationDuration=(3+Math.random()*5)+"s";
+ petal.style.opacity=Math.random();
+ document.body.appendChild(petal);
+}
+</script>
 </body>
