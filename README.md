@@ -138,7 +138,7 @@ Thank you for bringing happiness into my life.
 
 <div class="card">
 
-<h2>Our Memories 📸❤️</h2>
+<h2>Some of our Memories 📸❤️</h2>
 
 <div class="gallery">
 
@@ -154,7 +154,7 @@ Thank you for bringing happiness into my life.
 </div>
 
 <p>
-Every picture carries a memory I treasure ❤️
+Every picture carries a memory I treasure budi❤️
 </p>
 
 </div>
@@ -186,7 +186,7 @@ Simply because you are Sandhya ❤️
 <button onclick="secret()">Tap Here ❤️</button>
 
 <p id="secret">
-My dearest budi Sandhya🫶🏻🙆🏻💕
+To My dearest budi Sandhya🫶🏻🙆🏻💕
 <br><br>
 Whenever you doubt yourself, remember that there is someone who feels lucky to have you.
 I love you in every universe ❤️♾️
@@ -199,10 +199,10 @@ I love you in every universe ❤️♾️
 
 <div class="card">
 
-<h2>My Promise 💖</h2>
+<h2>My Promise to you budi💖</h2>
 
 <p>
-Baby🥺💐💗
+Baby💐💗
 <br><br>
 I will always try to make you feel loved, respected, and special.
 Distance may separate us physically, but my heart is always with you.
