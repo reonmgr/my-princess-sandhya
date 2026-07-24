@@ -2,57 +2,32 @@
 <html>
 <head>
 <title>My Princess Sandhya ❤️</title>
-<style>
-body {
-  margin: 0;
-  font-family: 'Georgia', serif;
-  background: linear-gradient(#ffd6e7, #fff0f6);
-  text-align: center;
-  color: #8b1e4a;
-  overflow-x: hidden;
+<s#intro {
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background:linear-gradient(#ffb6d9,#fff0f6);
 }
 
-.container {
-  padding: 40px 20px;
+.intro-heart {
+font-size:90px;
+animation:beat 1s infinite;
 }
 
-h1 {
-  font-size: 40px;
-}
-
-.card {
-  background: white;
-  border-radius: 25px;
-  padding: 25px;
-  margin: 25px auto;
-  max-width: 500px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-}
-
-button {
-  background: #ff5c9a;
-  color: white;
-  border: none;
-  padding: 15px 25px;
-  border-radius: 30px;
-  font-size: 18px;
-}
-
-.heart {
-  font-size: 50px;
-  animation: beat 1s infinite;
-}
-
-@keyframes beat {
-  50% {transform: scale(1.2);}
-}
-
-</style>
-</head>
-
+#intro button {
+margin-top:20px;
+}tyle>
 <body>
 
-<div class="container">
+<div id="intro">
+  <div class="intro-heart">❤️</div>
+  <h1>For My Princess Sandhya 💖</h1>
+  <button onclick="openLove()">Open My Heart 💌</button>
+</div>
+
+<div class="container" id="main" style="display:none;">
 
 <h1>For My Princess Sandhya 💖</h1>
 
@@ -92,5 +67,11 @@ Roshan ❤️
 
 </div>
 
+<script>
+function openLove(){
+ document.getElementById("intro").style.display="none";
+ document.getElementById("main").style.display="block";
+}
+</script>
+
 </body>
-</html># my-princess-sandhya
