@@ -146,7 +146,7 @@ Never forget how much you mean to me. ❤️
 <h2>My Promise 💖</h2>
 
 <p>
-My Princess Sandhya,
+My dear budi Sandhya,
 <br><br>
 Thank you for being a beautiful part of my life.
 I will always try to make you feel loved and special.
