@@ -5,82 +5,75 @@
 
 <style>
 body {
-margin:0;
-font-family:Georgia, serif;
-background:linear-gradient(#ffd1e3,#fff5fa);
-text-align:center;
-color:#8b1e4a;
-overflow-x:hidden;
+  margin: 0;
+  font-family: Georgia, serif;
+  background: linear-gradient(#ffd6e7,#fff5fa);
+  text-align: center;
+  color: #8b1e4a;
+  overflow-x: hidden;
 }
 
 #intro {
-height:100vh;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-background:linear-gradient(#ffb6d9,#fff0f6);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffd1e3;
 }
 
 .intro-heart {
-font-size:90px;
-animation:beat 1s infinite;
+  font-size: 90px;
+  animation: beat 1s infinite;
 }
 
 @keyframes beat {
-50% {transform:scale(1.2);}
+  50% {
+    transform: scale(1.2);
+  }
 }
 
 .container {
-padding:30px 20px;
+  padding: 30px 20px;
 }
 
-h1 {
-font-size:38px;
-}
-
-.card, .secret {
-background:white;
-border-radius:25px;
-padding:25px;
-margin:25px auto;
-max-width:500px;
-box-shadow:0 5px 20px rgba(0,0,0,0.1);
+.card {
+  background: white;
+  max-width: 500px;
+  margin: 25px auto;
+  padding: 25px;
+  border-radius: 25px;
 }
 
 button {
-background:#ff5c9a;
-color:white;
-border:none;
-padding:15px 25px;
-border-radius:30px;
-font-size:18px;
-cursor:pointer;
+  background: #ff5c9a;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-size: 18px;
 }
 
 .heart {
-font-size:60px;
-animation:beat 1s infinite;
+  font-size: 60px;
+  animation: beat 1s infinite;
 }
 
 .petal {
-position:fixed;
-top:-10px;
-font-size:25px;
-animation:fall linear infinite;
-z-index:5;
+  position: fixed;
+  top: -20px;
+  animation: fall linear infinite;
 }
 
 @keyframes fall {
-to {
-transform:translateY(110vh) rotate(360deg);
-}
-}
-
-#secretText {
-display:none;
+  to {
+    transform: translateY(100vh);
+  }
 }
 
+#secret {
+  display: none;
+}
 </style>
 
 </head>
@@ -93,11 +86,9 @@ display:none;
 
 <h1>For My Princess Sandhya 💖</h1>
 
-<p>A little surprise from Roshan</p>
+<p>A surprise from Roshan</p>
 
-<button onclick="openLove()">
-Open My Heart 💌
-</button>
+<button onclick="openPage()">Open My Heart 💌</button>
 
 </div>
 
@@ -110,54 +101,44 @@ Open My Heart 💌
 
 
 <div class="card">
-
-<h2>A message for you 🌹</h2>
+<h2>For You 🌹</h2>
 
 <p>
-Sandhya, I made this little place just for you.
+Sandhya, I made this little page just for you.
 <br><br>
-No matter how far apart we are, you are always close to my heart.
-You make my life happier just by being in it.
+Even with distance between us, you are always close to my heart.
 </p>
 
 </div>
-
 
 
 <div class="card">
 
-<h2>Reasons why I love you ❤️</h2>
+<h2>Why I Love You ❤️</h2>
 
 <p>
-Your beautiful smile ❤️<br><br>
-Your caring heart ❤️<br><br>
-The way you make me happy ❤️<br><br>
-Our memories together ❤️<br><br>
-Your kindness and love ❤️<br><br>
-Simply because you are you, Sandhya ❤️
+Your smile ❤️<br><br>
+Your kindness ❤️<br><br>
+Your beautiful heart ❤️<br><br>
+The memories we share ❤️<br><br>
+The happiness you bring to my life ❤️
 </p>
 
 </div>
 
 
+<div class="card">
 
-<div class="secret">
+<h2>Secret Message 💌</h2>
 
-<h2>💌 A Secret Message</h2>
+<button onclick="showSecret()">Tap Here ❤️</button>
 
-<button onclick="showSecret()">
-Tap Here ❤️
-</button>
-
-<p id="secretText">
-Sandhya, whenever you feel like you are not enough,
-remember that you are someone very special to me.
-I am lucky to have you.
-❤️
+<p id="secret">
+You are my special person, Sandhya.
+Never forget how much you mean to me. ❤️
 </p>
 
 </div>
-
 
 
 <div class="card">
@@ -168,9 +149,7 @@ I am lucky to have you.
 My Princess Sandhya,
 <br><br>
 Thank you for being a beautiful part of my life.
-I will always try to make you feel loved, respected, and special.
-<br><br>
-No matter the distance, my heart chooses you.
+I will always try to make you feel loved and special.
 <br><br>
 Forever yours,
 <br>
@@ -183,35 +162,31 @@ Roshan ❤️
 </div>
 
 
-
 <script>
 
-function openLove(){
+function openPage(){
 document.getElementById("intro").style.display="none";
 document.getElementById("main").style.display="block";
 }
 
-
 function showSecret(){
-document.getElementById("secretText").style.display="block";
+document.getElementById("secret").style.display="block";
 }
 
 
-for(let i=0;i<30;i++){
+for(let i=0;i<20;i++){
 
-let petal=document.createElement("div");
+let p=document.createElement("div");
 
-petal.className="petal";
+p.className="petal";
 
-petal.innerHTML="🌸";
+p.innerHTML="🌸";
 
-petal.style.left=Math.random()*100+"vw";
+p.style.left=Math.random()*100+"vw";
 
-petal.style.animationDuration=(3+Math.random()*5)+"s";
+p.style.animationDuration=(3+Math.random()*5)+"s";
 
-petal.style.opacity=Math.random();
-
-document.body.appendChild(petal);
+document.body.appendChild(p);
 
 }
 
