@@ -74,7 +74,18 @@ button {
 #secret {
   display: none;
 }
-</style>
+</st.gallery {
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:10px;
+}
+
+.gallery img {
+width:100%;
+height:120px;
+object-fit:cover;
+border-radius:15px;
+}yle>
 
 </head>
 
@@ -142,7 +153,29 @@ Never forget how much you mean to me. ❤️
 
 
 <div class="card">
+<div class="card">
 
+<h2>Our Memories 📸❤️</h2>
+
+<div class="gallery">
+
+<img src="photo1.jpg">
+<img src="photo2.jpg">
+<img src="photo3.jpg">
+<img src="photo4.jpg">
+<img src="photo5.jpg">
+<img src="photo6.jpg">
+<img src="photo7.jpg">
+<img src="photo8.jpg">
+<img src="photo9.jpg">
+
+</div>
+
+<p>
+Every picture is a little piece of happiness I share with you ❤️
+</p>
+
+</div>
 <h2>My Promise 💖</h2>
 
 <p>
