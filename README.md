@@ -202,12 +202,12 @@ I love you in every universe ❤️♾️
 <h2>My Promise to you budi💖</h2>
 
 <p>
-Baby💐💗
+Budi🥺💐💗
 <br><br>
 I will always try to make you feel loved, respected, and special.
 Distance may separate us physically, but my heart is always with you.
 <br><br>
-Forever yours,
+Forever yours
 <br>
 Roshan ❤️
 </p>
