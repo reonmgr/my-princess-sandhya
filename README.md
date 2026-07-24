@@ -104,7 +104,7 @@ button {
 <h2>For You 🌹</h2>
 
 <p>
-Sandhya, I made this little page just for you.
+Baby, I made this little page just for you.
 <br><br>
 Even with distance between us, you are always close to my heart.
 </p>
