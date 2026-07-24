@@ -126,7 +126,7 @@ border-radius:15px;
 <h2>A message for you 🌹</h2>
 
 <p>
-Babyy💗 I made this little world just for you.
+Babyy💗 I made this little world for you.
 <br><br>
 No matter how far we are, you are always close to my heart.
 Thank you for bringing happiness into my life.
@@ -163,7 +163,7 @@ Every picture carries a memory I treasure budi❤️
 
 <div class="card">
 
-<h2>Why I Love You ❤️</h2>
+<h2>Reasons that I Love You sooooooooooo much❤️</h2>
 
 <p>
 Your smile ❤️<br><br>
