@@ -4,77 +4,80 @@
 <title>My Princess Sandhya ❤️</title>
 
 <style>
+
 body {
-  margin: 0;
-  font-family: Georgia, serif;
-  background: linear-gradient(#ffd6e7,#fff5fa);
-  text-align: center;
-  color: #8b1e4a;
-  overflow-x: hidden;
+margin:0;
+font-family:Georgia,serif;
+background:linear-gradient(#ffd1e3,#fff5fa);
+color:#8b1e4a;
+text-align:center;
+overflow-x:hidden;
 }
 
 #intro {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #ffd1e3;
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background:linear-gradient(#ffb6d9,#ffeaf3);
 }
 
 .intro-heart {
-  font-size: 90px;
-  animation: beat 1s infinite;
+font-size:90px;
+animation:beat 1s infinite;
 }
 
 @keyframes beat {
-  50% {
-    transform: scale(1.2);
-  }
+50% {transform:scale(1.2);}
 }
 
 .container {
-  padding: 30px 20px;
+padding:20px;
 }
 
 .card {
-  background: white;
-  max-width: 500px;
-  margin: 25px auto;
-  padding: 25px;
-  border-radius: 25px;
+background:white;
+max-width:500px;
+margin:25px auto;
+padding:25px;
+border-radius:25px;
+box-shadow:0 5px 15px #ddd;
 }
 
 button {
-  background: #ff5c9a;
-  color: white;
-  border: none;
-  padding: 15px 25px;
-  border-radius: 30px;
-  font-size: 18px;
+background:#ff5c9a;
+color:white;
+border:0;
+padding:15px 25px;
+border-radius:30px;
+font-size:18px;
 }
 
 .heart {
-  font-size: 60px;
-  animation: beat 1s infinite;
+font-size:60px;
+animation:beat 1s infinite;
 }
 
 .petal {
-  position: fixed;
-  top: -20px;
-  animation: fall linear infinite;
+position:fixed;
+top:-20px;
+font-size:25px;
+animation:fall linear infinite;
+z-index:10;
 }
 
 @keyframes fall {
-  to {
-    transform: translateY(100vh);
-  }
+to {
+transform:translateY(110vh) rotate(360deg);
+}
 }
 
 #secret {
-  display: none;
+display:none;
 }
-</st.gallery {
+
+.gallery {
 display:grid;
 grid-template-columns:repeat(3,1fr);
 gap:10px;
@@ -85,11 +88,15 @@ width:100%;
 height:120px;
 object-fit:cover;
 border-radius:15px;
-}yle>
+}
+
+</style>
 
 </head>
 
+
 <body>
+
 
 <div id="intro">
 
@@ -97,30 +104,61 @@ border-radius:15px;
 
 <h1>For My Princess Sandhya 💖</h1>
 
-<p>A surprise from Roshan</p>
+<p>A little surprise from Roshan</p>
 
 <button onclick="openPage()">Open My Heart 💌</button>
 
 </div>
 
 
+
 <div class="container" id="main" style="display:none;">
+
 
 <h1>My Princess Sandhya 💖</h1>
 
 <div class="heart">❤️</div>
 
 
+
 <div class="card">
-<h2>For You 🌹</h2>
+
+<h2>A message for you 🌹</h2>
 
 <p>
-Baby, I made this little page just for you.
+Sandhya, I made this little world just for you.
 <br><br>
-Even with distance between us, you are always close to my heart.
+No matter how far we are, you are always close to my heart.
+Thank you for bringing happiness into my life.
 </p>
 
 </div>
+
+
+
+<div class="card">
+
+<h2>Our Memories 📸❤️</h2>
+
+<div class="gallery">
+
+<img src="IMG-20260603-WA0000.jpg">
+<img src="IMG-20260603-WA0033.jpg">
+<img src="IMG-20260603-WA0044.jpg">
+<img src="IMG-20260714-WA0043.jpg">
+<img src="IMG-20260714-WA0054.jpg">
+<img src="IMG-20260714-WA0056.jpg">
+<img src="IMG-20260716-WA0013.jpg">
+<img src="IMG-20260716-WA0017.jpg">
+
+</div>
+
+<p>
+Every picture carries a memory I treasure ❤️
+</p>
+
+</div>
+
 
 
 <div class="card">
@@ -131,58 +169,43 @@ Even with distance between us, you are always close to my heart.
 Your smile ❤️<br><br>
 Your kindness ❤️<br><br>
 Your beautiful heart ❤️<br><br>
-The memories we share ❤️<br><br>
-The happiness you bring to my life ❤️
+The way you make ordinary moments special ❤️<br><br>
+The memories we create together ❤️<br><br>
+Simply because you are Sandhya ❤️
 </p>
 
 </div>
+
+
 
 
 <div class="card">
 
 <h2>Secret Message 💌</h2>
 
-<button onclick="showSecret()">Tap Here ❤️</button>
+<button onclick="secret()">Tap Here ❤️</button>
 
 <p id="secret">
-You are my special person, Sandhya.
-Never forget how much you mean to me. ❤️
+My Princess Sandhya,
+<br><br>
+Whenever you doubt yourself, remember that there is someone who feels lucky to have you.
+I love you ❤️
 </p>
 
 </div>
 
 
+
+
 <div class="card">
-<div class="card">
 
-<h2>Our Memories 📸❤️</h2>
-
-<div class="gallery">
-
-<img src="photo1.jpg">
-<img src="photo2.jpg">
-<img src="photo3.jpg">
-<img src="photo4.jpg">
-<img src="photo5.jpg">
-<img src="photo6.jpg">
-<img src="photo7.jpg">
-<img src="photo8.jpg">
-<img src="photo9.jpg">
-
-</div>
-
-<p>
-Every picture is a little piece of happiness I share with you ❤️
-</p>
-
-</div>
 <h2>My Promise 💖</h2>
 
 <p>
-My dear budi Sandhya,
+Sandhya,
 <br><br>
-Thank you for being a beautiful part of my life.
-I will always try to make you feel loved and special.
+I will always try to make you feel loved, respected, and special.
+Distance may separate us physically, but my heart is always with you.
 <br><br>
 Forever yours,
 <br>
@@ -195,6 +218,7 @@ Roshan ❤️
 </div>
 
 
+
 <script>
 
 function openPage(){
@@ -202,12 +226,13 @@ document.getElementById("intro").style.display="none";
 document.getElementById("main").style.display="block";
 }
 
-function showSecret(){
+
+function secret(){
 document.getElementById("secret").style.display="block";
 }
 
 
-for(let i=0;i<20;i++){
+for(let i=0;i<30;i++){
 
 let p=document.createElement("div");
 
