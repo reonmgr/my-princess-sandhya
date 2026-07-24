@@ -150,7 +150,7 @@ Thank you for bringing happiness into my life.
 <img src="IMG-20260714-WA0056.jpg">
 <img src="IMG-20260716-WA0013.jpg">
 <img src="IMG-20260716-WA0017.jpg">
-<img src="IMG_2436.HEIC">
+<img src="IMG-20260603-WA0048.jpg">
 
 </div>
 
@@ -168,10 +168,10 @@ Every picture carries a memory I treasure ❤️
 
 <p>
 Your smile ❤️<br><br>
-Your kindness ❤️<br><br>
-Your beautiful heart ❤️<br><br>
-The way you make ordinary moments special ❤️<br><br>
-The memories we create together ❤️<br><br>
+Your kindness 🥰<br><br>
+Your beautiful heart 💖<br><br>
+The way you make ordinary moments special 💝<br><br>
+The memories we create together 💘<br><br>
 Simply because you are Sandhya ❤️
 </p>
 
@@ -187,10 +187,10 @@ Simply because you are Sandhya ❤️
 <button onclick="secret()">Tap Here ❤️</button>
 
 <p id="secret">
-My dearest Sandhya🫶🏻🙆🏻💕
+My dearest budi Sandhya🫶🏻🙆🏻💕
 <br><br>
 Whenever you doubt yourself, remember that there is someone who feels lucky to have you.
-I love you ❤️♾️
+I love you in every universe ❤️♾️
 </p>
 
 </div>
