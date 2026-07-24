@@ -115,7 +115,7 @@ border-radius:15px;
 <div class="container" id="main" style="display:none;">
 
 
-<h1>My Princess Sandhya 💖</h1>
+<h1>My cutiee Sandhya 💖</h1>
 
 <div class="heart">❤️</div>
 
@@ -126,7 +126,7 @@ border-radius:15px;
 <h2>A message for you 🌹</h2>
 
 <p>
-Sandhya, I made this little world just for you.
+Babyy💗 I made this little world just for you.
 <br><br>
 No matter how far we are, you are always close to my heart.
 Thank you for bringing happiness into my life.
@@ -150,6 +150,7 @@ Thank you for bringing happiness into my life.
 <img src="IMG-20260714-WA0056.jpg">
 <img src="IMG-20260716-WA0013.jpg">
 <img src="IMG-20260716-WA0017.jpg">
+<img src="IMG_2436.HEIC">
 
 </div>
 
@@ -186,10 +187,10 @@ Simply because you are Sandhya ❤️
 <button onclick="secret()">Tap Here ❤️</button>
 
 <p id="secret">
-My Princess Sandhya,
+My dearest Sandhya🫶🏻🙆🏻💕
 <br><br>
 Whenever you doubt yourself, remember that there is someone who feels lucky to have you.
-I love you ❤️
+I love you ❤️♾️
 </p>
 
 </div>
